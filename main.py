@@ -27,10 +27,11 @@ elif ( ("container" in cmd) and ("docker" in cmd) or ( ("os" in cmd) or ("contai
 
 
 
-"""
+'''
 1. systemctl stop firefox
 2. systemctl start docker
 3. systemctl start httpd
 4. setenforce 0 (stop selinux)
 4. vim /etc/group (set apache id to 0)
+'''
 5. vim /etc/sudoers (set apache ALL=(ALL) NOPASSWD: ALL)
